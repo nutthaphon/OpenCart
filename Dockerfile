@@ -1,4 +1,4 @@
-FROM 7.1-apache
+FROM php:7.1-apache
 MAINTAINER Nutthaphon Suwanwong
 RUN (mv /etc/localtime /etc/localtime.old; ln -s /usr/share/zoneinfo/Asia/Bangkok /etc/localtime)
 WORKDIR /var/www/html
